@@ -3,9 +3,6 @@
 	margin: 0;
 	font-family:'Impact';
 }
-body {
-	margin: 30px;
-}
 h1 {
 	margin: 100px;
 	text-align: center;
@@ -17,7 +14,7 @@ section {
 	background-color: #F4A460;
 	border: 1px solid black;
 	text-align: center;
-	margin: 10px;
+	margin: 15px;
 }
 header{
 	width: 180px;
@@ -29,8 +26,15 @@ header{
 p {
 	padding: 15px;
 	clear: both;
-	
 }
+
+footer{
+	height: 30px;
+}
+.container{
+	margin: 10px;
+}
+
 #one > header {
 	background-color: #83BD93;
 }
