@@ -6,7 +6,7 @@
 h1 {
 	margin: 100px;
 	text-align: center;
-	font-size:200%%;
+	font-size:200%;
 }
 
 section {
@@ -16,11 +16,12 @@ section {
 	text-align: center;
 	margin: 15px;
 }
-header{
+h2{
 	width: 180px;
 	border-left: 1px solid black;
 	border-bottom: 1px solid #000000;
 	float: right;
+	font-size: 120%;
 }
 
 p {
@@ -35,15 +36,15 @@ footer{
 	margin: 10px;
 }
 
-#one > header {
+#one > h2 {
 	background-color: #83BD93;
 }
 
-#two > header {
+#two > h2{
 	background-color: #F94D59;
 }
 
-#three > header {
+#three > h2{
 	background-color: #6D7BD1;
 }
 
