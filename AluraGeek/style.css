@@ -1,0 +1,14 @@
+*{
+	margin: auto;
+}
+button {
+			background-color: white;
+			border-style: solid;
+			border-color: black;
+		}
+.banner{
+	background: url('https://trello.com/1/cards/620bf3f8bf76ff71199adc86/attachments/620bf3f9bf76ff71199ade5c/download/banner-image.png');	
+	width: 1440px;
+	height: 352px;
+	color: white;
+}
