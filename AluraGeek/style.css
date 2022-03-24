@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 }
@@ -46,6 +49,7 @@ header {
 #login{
 	grid-column: 4/5;
 	background-color: white;
+	border-width: 1px;
 	border-style: solid;
 	border-color: #2a7ae4;
 	color: #2a7ae4;
@@ -115,4 +119,7 @@ form{
 li {
   list-style-type: none;
   color: #535454;
+}
+.products_container	{
+	display: flex;
 }
