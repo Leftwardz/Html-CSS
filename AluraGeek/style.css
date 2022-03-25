@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+
 }
 
 html, body{
@@ -103,6 +104,7 @@ button.comum_btn:active {
 	font-size: 120%;
 }
 footer{
+	margin-top: 50px;
 	display: flex;
 	height: 250px;
 	width: 100%;
@@ -121,12 +123,35 @@ li {
   list-style-type: none;
   color: #535454;
 }
+.produtos {
+	width: 85%;
+	margin-left: 5%;
+}
+
 .products_container	{
 	display: flex;
+	font-family: Helvetica;
+	justify-content: space-between;
+
+
 }
+ 
+.product_images {
+	width: 165px;
+	height: 165px;
+}
+
 @media (min-width: 1440px){
-	html, body{
+
+	html, body {
 		width: 1440px;
 		margin: auto;
 	}
+
+}
+
+h2 {
+	font-family: 'impact';
+	font-size: 35px;
+	color: #464646;
 }
