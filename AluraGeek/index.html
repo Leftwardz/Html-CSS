@@ -149,7 +149,8 @@
 			<h2>Diversos</h2>
 			<div class='product_detail ver_tudo'>
 				<a href="#" >Ver tudo</a>
-				<img src="images/arrow.svg" width="20" height="20">
+				<img src="images/arrow.svg" width="20" heig
+				ht="20">
 			</div>
 		</div>
 		<div class="products_container">
@@ -206,27 +207,31 @@
 </main>
 <footer>
 	<div>
-	<img class='logo' src="https://trello.com/1/cards/620bf3f8bf76ff71199adca0/attachments/620bf3f9bf76ff71199adec3/download/Logo.png">
+		<img class='logo_footer' src="https://trello.com/1/cards/620bf3f8bf76ff71199adca0/attachments/620bf3f9bf76ff71199adec3/download/Logo.png">
 	</div>
-	<nav>
+	<nav class="navegacao">
 		<ul>
-			<li>Quem somos nós</li>
-			<li>Política de privacidade</li>
-			<li>Programa fidelidade</li>
-			<li>Nossas lojas</li>
-			<li>Quero ser franqueado</li>
-			<li>Anuncie aqui</li>
+			<a href="#"><li>Quem somos nós</li> </a>
+			<a href="#"><li>Política de privacidade</li></a>
+			<a href="#"><li>Programa fidelidade</li></a>
+			<a href="#"><li>Nossas lojas</li></a>
+			<a href="#"><li>Quero ser franqueado</li></a>
+			<a href="#"><li>Anuncie aqui</li></a>
 		</ul>
 	</nav>
-	<form>
-		<h3>Fale conosco</h3>
-		<label>
-			<input type="text" name="nome" placeholder="Digite seu nome">
-		</label>
-		<label>
-			<input type="text" name="mensagem" placeholder="Escreva sua mensagem">
-		</label>
-	</form>
+	<div class="form_container">
+		<form>
+			<h3>Fale conosco</h3>
+			<div class="name_container">
+				<label for="nome"> Nome </label>
+				<input class='form name' type="text" name="nome" placeholder="">
+			</div>
+			<div class="message_container">
+					<textarea class='form message' type="text" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+			</div>
+			<button class='comum_btn'>Enviar mensagem</button>
+		</form>
+	</div>
 </footer>
 </body>
 </html>
