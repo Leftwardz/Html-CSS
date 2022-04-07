@@ -17,3 +17,10 @@
 .borda-cor-especial{
 	border-color: darkred;
 }
+.largura-card{
+	max-width: 18rem;
+}
+.imagem-card{
+	height: 250px;
+	object-fit: cover;
+}
